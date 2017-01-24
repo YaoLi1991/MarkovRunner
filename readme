@@ -1,0 +1,4 @@
+The source java codes can be found in the src folder. 
+When you run MarkovRunner.java, it first opens a FileDialog. You can choose one file from the data folder. The files in the data folder
+are essays of different styles. After choosing a style file, the program will initialize a MarkovWord object. Its order is 7. The runModel
+method will use the 7-order MarkovWord object to generate 200 words same style essay three times and print them out.
